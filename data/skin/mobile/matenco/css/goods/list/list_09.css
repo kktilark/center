@@ -1,0 +1,22 @@
+@charset "utf-8";
+
+/*** 심플이미지형 1 | goods/list/list_09.html ***/
+.goods_prd_item1 {
+	padding: 10px 2px;
+	border-top: 0px solid #e2e3e3;
+	vertical-align: top;
+}
+.goods_prd_item1 .goods_prd_img {
+	width: 100%;
+	padding-bottom: 10px;
+	vertical-align: top;
+}
+.goods_prd_item1 .goods_prd_content {
+	vertical-align: top;
+}
+
+.goods_prd_item1 .goods_prd_img .img_box .img img {
+	width: 100%;
+	border: 1px solid #e5e5e5;
+	box-sizing: border-box;
+}

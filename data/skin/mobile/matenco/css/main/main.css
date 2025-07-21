@@ -1,0 +1,177 @@
+@charset "utf-8";
+/*───────────────────────────────────────────────────────────
+
+	 리스트 타입 및 옵션
+
+───────────────────────────────────────────────────────────*/
+/*** 쇼핑몰 메인본문 | main/index.php ***/
+#wrap {
+	background: #ededed;
+}
+
+#header_wrap header {
+	background: #ededed;
+}
+
+.main .main_more_btn2 {
+	position: initial;
+}
+.main .main_top_menu {
+	display: table;
+	width: 100%;
+}
+.main .main_top_menu li {
+	display: table-cell;
+	width: 25%;
+	text-align: center;
+}
+.main .main_top_menu li a {
+	display: block;
+	padding: 13px 0 13px 0;
+	font-size: 14px;
+	color: #333333;
+}
+.main .main_notice {
+	display: table;
+	width: 100%;
+	margin: 0 auto;
+	padding: 22px 0 22px 0;
+}
+.main .main_notice .tit {
+	display: table-cell;
+	width: 84px;
+	font-size: 13px;
+	font-weight: bold;
+	color: #282828;
+	text-align: center;
+}
+.main .main_notice ul {
+	display: table-cell;
+}
+.main .main_notice ul li {
+	overflow: hidden;
+	width: 80%;
+	display: -webkit-box;
+	text-overflow: ellipsis;
+	-webkit-line-clamp: 1;
+	-webkit-box-orient: vertical;
+	letter-spacing: -1px;
+}
+.main .main_notice ul li a {
+	display: block;
+	width: 100%;
+}
+/* 메인배너 */
+.main .main_banner_box > a > img {
+	width: 100%;
+}
+.main .main_banner_box .text_banner {
+	display: flex;
+	flex-direction: column;
+	gap: 40px;
+	padding: 60px 40px;
+}
+
+/* 이벤트 최근게시물 */
+.main .main_event {
+}
+.main .main_event ul {
+}
+.main .main_event ul li {
+	position: relative;
+	padding: 7px 0;
+}
+.main .main_event ul li .img_box {
+	font-size: 0;
+}
+.main .main_event ul li .img_box img {
+	width: 100%;
+}
+.main .main_event ul li .event_info_box {
+	/*position:absolute; bottom:7px; left:0;*/
+	width: 100%;
+}
+.main .main_event ul li .event_info_box dl {
+	padding: 20px;
+	background: rgba(255, 255, 255, 0.8);
+	box-sizing: border-box;
+}
+.main .main_event ul li .event_info_box dl dt a {
+	display: block;
+	font-size: 17px;
+	color: #222222;
+	font-weight: bold;
+}
+.main .main_event ul li .event_info_box dl dd {
+	font-size: 15px;
+	color: #ab295d;
+	font-weight: bold;
+}
+
+.main .main_slide {
+	background: url('../../img/etc/bg_main_visual.png') no-repeat center / contain;
+}
+
+.main_prd_list.display-type01 .goods_prd_item2 .goods_prd_img .img_box .img img {
+	border: none;
+}
+
+.main_more_btn {
+	padding: 8px;
+	font-size: 16px;
+}
+
+.product-section01 ._goods_display_main h3 {
+	display: none;
+}
+
+.product-section01 ._goods_display_main .main_prd_list {
+	padding: 40px 16px;
+	margin: 0;
+}
+
+.product-section01 .main_prd_list.display-type01 .goods_prd_item2 .goods_prd_item2_box {
+	padding: 0;
+}
+.product-section01 .main_prd_list.display-type01 .goods_prd_item2:nth-child(2n+1) .goods_prd_item2_box {
+	padding-right: 6px;
+}
+.product-section01 .main_prd_list.display-type01 .goods_prd_item2:nth-child(2n) .goods_prd_item2_box {
+	padding-left: 6px;
+}
+.product-section01 .main_prd_list.display-type01 .goods_prd_item2:nth-child(n+3) .goods_prd_item2_box {
+	padding-top: 40px;
+}
+.product-section01 .main_prd_list.display-type01 .goods_prd_item2 .goods_prd_img {
+	padding-bottom: 12px;
+}
+.product-section01 ._goods_display_main .btn_box {
+	padding-bottom: 40px;
+}
+.product-section02 ._goods_display_main h3 {
+	margin-top: 40px;
+	font-size: 26px;
+	font-weight: 700;
+	font-family: "Bellota Text";
+}
+.product-section02 ._goods_display_main .main_prd_list {
+	padding: 16px;
+	margin: 0;
+}
+.product-section02 .main_prd_list.display-type02 .goods_prd_item {
+	align-items: center;
+	padding: 0;
+	margin-top: 12px;
+}
+.product-section02 .main_prd_list.display-type02 .goods_prd_item:first-child {
+	margin-top: 0;
+}
+
+.product-section02 ._goods_display_main .btn_box {
+	padding: 0 12px 40px;
+}
+
+.prd_name {
+	font-size: 16px;
+	font-weight: 500;
+}

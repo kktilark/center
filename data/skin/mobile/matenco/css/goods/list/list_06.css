@@ -1,0 +1,34 @@
+@charset "utf-8";
+
+/*** 스크롤형 | goods/list/list_06.html ***/
+.goods_prd_item6_li {
+	width: 100%;
+	overflow-x: auto;
+	vertical-align: top;
+	-webkit-overflow-scrolling: touch;
+}
+.goods_prd_item6_li ul.goods_prd_item6_scroll {
+	display: table;
+	vertical-align: top;
+}
+.goods_prd_item6_li ul.goods_prd_item6_scroll .swiper_slide {
+	display: table-cell;
+	vertical-align: top;
+}
+
+.goods_prd_item6 .goods_prd_item6_box {
+	padding: 8px 2px;
+}
+.goods_prd_item6 .goods_prd_img {
+	width: 100%;
+	padding-bottom: 10px;
+	vertical-align: top;
+}
+.goods_prd_item6 .goods_prd_content {
+	vertical-align: top;
+}
+
+scroll-vertical-fix::-webkit-scrollbar-thumb {
+	width: 4px;
+	background-color: #a9a9a9;
+}

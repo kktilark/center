@@ -1,0 +1,36 @@
+{*** 쇼핑몰 메인본문 | main/index.php ***}
+{ # header }
+<div class="main">
+	<!-- 슬라이더 -->
+	<div class="main_slide">
+		{=includeWidget('proc/_slider_banner.html', 'bannerCode', '3606671697')}
+	</div>
+	<!-- 최근게시물 -->
+	<!--div class="main_notice">
+		<div class="tit">NOTICE</div>
+		<ul>
+			<!--{ @getArticles( 'notice' , 3 , 25 ) }-->
+			<!--li><a href="../board/view.php?bdId={.bdId}&sno={.sno}">{.subject}</a></li>
+			<!--{ / }-->
+		<!--/ul>
+	</div>
+	<!-- 메인배너 -->
+	
+	<div class="pollview"><!-- 설문조사 배너 -->{=pollViewBanner()}<!-- 설문조사 배너 --></div>
+	<div class="best_prd product-section01">
+		<!-- 메인 상품 노출 -->{=includeWidget('goods/_goods_display_main.html','sno','3')}<!-- 메인 상품 노출 -->
+	</div>
+	<div class="main_banner_box">
+		<!--{ @dataBanner('2505697183') }-->{.tag}<!--{ / }-->
+		<div class="text_banner">
+			<!--{ @dataBanner('81393231') }-->{.tag}<!--{ / }-->
+			<!--{ @dataBanner('1772932566') }-->{.tag}<!--{ / }-->
+		</div>
+		<!--{ @dataBanner('15893464') }-->{.tag}<!--{ / }-->
+	</div>
+	<div class="best_prd product-section02">
+		<!-- 메인 상품 노출 -->{=includeWidget('goods/_goods_display_main.html','sno','4')}<!-- 메인 상품 노출 -->
+	</div>
+</div>
+<!-- //main -->
+{ # footer }
